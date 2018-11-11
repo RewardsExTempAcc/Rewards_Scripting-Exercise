@@ -28,11 +28,11 @@ formatter.match({
   "location": "SearchByNameStepsDefs.base_URL_is_set()"
 });
 formatter.result({
-  "duration": 157138399,
+  "duration": 277209258,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 11,
+  "line": 12,
   "name": "Test Search Engine by Author Name",
   "description": "\nTest repository search functionality for specific user name",
   "id": "github-search-engine-of-repositories;test-search-engine-by-author-name",
@@ -40,7 +40,7 @@ formatter.scenario({
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 15,
+  "line": 16,
   "name": "the following query parameters are set",
   "rows": [
     {
@@ -49,7 +49,7 @@ formatter.step({
         "qualifier",
         "value"
       ],
-      "line": 16
+      "line": 17
     },
     {
       "cells": [
@@ -57,7 +57,7 @@ formatter.step({
         "user",
         "apache"
       ],
-      "line": 17
+      "line": 18
     },
     {
       "cells": [
@@ -65,7 +65,7 @@ formatter.step({
         "",
         "stars"
       ],
-      "line": 18
+      "line": 19
     },
     {
       "cells": [
@@ -73,18 +73,18 @@ formatter.step({
         "",
         "desc"
       ],
-      "line": 19
+      "line": 20
     }
   ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 20,
+  "line": 21,
   "name": "status code should be \u0027200\u0027",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 21,
+  "line": 22,
   "name": "the reposponse should be the following",
   "rows": [
     {
@@ -92,14 +92,14 @@ formatter.step({
         "login",
         "id"
       ],
-      "line": 22
+      "line": 23
     },
     {
       "cells": [
         "apache",
         "47359"
       ],
-      "line": 23
+      "line": 24
     }
   ],
   "keyword": "And "
@@ -108,7 +108,7 @@ formatter.match({
   "location": "SearchByNameStepsDefs.the_following_query_parameters_are_set(RepositoryContainer\u003e)"
 });
 formatter.result({
-  "duration": 2752454924,
+  "duration": 2470278198,
   "status": "passed"
 });
 formatter.match({
@@ -121,14 +121,14 @@ formatter.match({
   "location": "SearchByNameStepsDefs.status_code_should_be(int)"
 });
 formatter.result({
-  "duration": 2092469,
+  "duration": 1503745,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchByNameStepsDefs.the_reposponse_should_be_the_following(ResponseContainer\u003e)"
 });
 formatter.result({
-  "duration": 2075929,
+  "duration": 1950474,
   "status": "passed"
 });
 formatter.background({
@@ -153,19 +153,19 @@ formatter.match({
   "location": "SearchByNameStepsDefs.base_URL_is_set()"
 });
 formatter.result({
-  "duration": 36562,
+  "duration": 36013,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 26,
-  "name": "",
-  "description": "",
-  "id": "github-search-engine-of-repositories;",
+  "line": 27,
+  "name": "Search for repository by user name use pagination",
+  "description": "\nPer page parameters returns given number of items per request",
+  "id": "github-search-engine-of-repositories;search-for-repository-by-user-name-use-pagination",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 27,
+  "line": 31,
   "name": "the following query parameters are set",
   "rows": [
     {
@@ -174,7 +174,7 @@ formatter.step({
         "qualifier",
         "value"
       ],
-      "line": 28
+      "line": 32
     },
     {
       "cells": [
@@ -182,7 +182,7 @@ formatter.step({
         "user",
         "apache"
       ],
-      "line": 29
+      "line": 33
     },
     {
       "cells": [
@@ -190,7 +190,7 @@ formatter.step({
         "",
         "1"
       ],
-      "line": 30
+      "line": 34
     },
     {
       "cells": [
@@ -198,18 +198,18 @@ formatter.step({
         "",
         "10"
       ],
-      "line": 31
+      "line": 35
     }
   ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 32,
+  "line": 36,
   "name": "status code should be \u0027200\u0027",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 33,
+  "line": 37,
   "name": "the reposponse should be the following",
   "rows": [
     {
@@ -217,20 +217,20 @@ formatter.step({
         "login",
         "id"
       ],
-      "line": 34
+      "line": 38
     },
     {
       "cells": [
         "apache",
         "47359"
       ],
-      "line": 35
+      "line": 39
     }
   ],
   "keyword": "And "
 });
 formatter.step({
-  "line": 36,
+  "line": 40,
   "name": "items size is \u002710\u0027",
   "keyword": "And "
 });
@@ -238,7 +238,7 @@ formatter.match({
   "location": "SearchByNameStepsDefs.the_following_query_parameters_are_set(RepositoryContainer\u003e)"
 });
 formatter.result({
-  "duration": 759948418,
+  "duration": 501872293,
   "status": "passed"
 });
 formatter.match({
@@ -251,14 +251,14 @@ formatter.match({
   "location": "SearchByNameStepsDefs.status_code_should_be(int)"
 });
 formatter.result({
-  "duration": 116098,
+  "duration": 88987,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchByNameStepsDefs.the_reposponse_should_be_the_following(ResponseContainer\u003e)"
 });
 formatter.result({
-  "duration": 490230,
+  "duration": 692706,
   "status": "passed"
 });
 formatter.match({
@@ -271,7 +271,7 @@ formatter.match({
   "location": "SearchByNameStepsDefs.items_size_is(int)"
 });
 formatter.result({
-  "duration": 102340,
+  "duration": 111130,
   "status": "passed"
 });
 });
